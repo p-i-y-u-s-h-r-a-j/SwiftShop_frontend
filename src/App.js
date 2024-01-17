@@ -10,10 +10,13 @@ import './App.css';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome to My App</h1>
-      <Link to="/signin"><button>Sign In</button></Link>
-      <Link to="/signup"><button>Sign Up</button></Link>
+    <div className="home-main-div">
+      <h1>Welcome to Swift Shop</h1>
+      <div className='home-main-div-sub'>
+          <Link to="/signin"><button className='main-div-signin'>Sign In</button></Link>
+          <Link to="/signup"><button className='main-div-signup'>Sign Up</button></Link>
+      </div>
+      
     </div>
   );
 };

@@ -1,7 +1,34 @@
 .App {
   text-align: center;
 }
+.home-main-div{
+  /* background-color: red; */
+  text-align: center;
+}
+.home-main-div-sub{
+  /* background-color: gray; */
+}
 
+.home-main-div h1{
+  font-family: cursive;
+  font-size: 60px;
+}
+.main-div-signin{
+  margin: 10px;
+  height: 50px;
+  width: 80px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px black,
+  5px 3px 3px green;
+}
+
+.main-div-signup{
+  height: 50px;
+  width: 80px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px black,
+  5px 3px 3px green;
+}
 
 
 
