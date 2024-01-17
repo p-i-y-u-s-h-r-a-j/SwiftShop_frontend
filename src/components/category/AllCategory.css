@@ -1,0 +1,79 @@
+.allCategories .category-head{
+    background-color: whitesmoke;
+    height: 12vh;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+input{
+    width: 500px;
+    padding: 10px;
+  margin: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: lightgrey;
+  box-shadow: -3px -3px 7px grey,
+  3px 3px 5px black;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 160px;
+}  
+.allCategories .category-head .text-head{
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: cursive;
+
+}
+.allCategories .category-head .button-head{
+    width: 90px;
+    height: 35px;
+    margin-right: 20px;
+    box-shadow: -3px -3px 7px grey,
+    3px 3px 5px black;
+}
+
+.allCategories .category-head .cart-add{
+    background-color: lightgrey;
+    font-size: 35px;
+    width: 45px;
+    text-align: center;
+    height: 40px;
+    padding: 3px;
+    box-shadow: -3px -3px 7px grey,
+    3px 3px 5px black;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+.allCategories .category-head .heart{
+    background-color: lightgrey;
+    font-size: 35px;
+    width: 50px;
+    text-align: center;
+    height: 42px;
+    box-shadow: -3px -3px 7px grey,
+    3px 3px 5px black;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+.allCategories .category-head .all-category{
+    background-color: lightgrey;
+    font-size: 35px;
+    width: 50px;
+    text-align: center;
+    height: 42px;
+    box-shadow: -3px -3px 7px grey,
+    3px 3px 5px black;
+    border-radius: 10px;
+    margin-right: 0px;   
+}
+.allCategories .common{
+    text-align: center;
+    padding: 10px;  
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}

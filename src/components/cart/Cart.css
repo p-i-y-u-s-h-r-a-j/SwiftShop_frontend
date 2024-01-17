@@ -1,0 +1,138 @@
+.cart-head-all{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+.cart-card-img{
+    border-right: 2px solid black;
+}
+.cart-img{
+    width: 200px;
+    height: 200px;
+}
+.cart-card{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-shadow: 3px 3px 7px gray;
+}
+.cart-card-detail{
+    /* background-color: red; */
+    padding-left: 10px;
+    width: 500px;
+    right: 0%;
+    text-align: left;
+}
+.cart-card-detail span{
+    position: relative;
+    font-family: cursive;
+}
+.cart-card-name{
+    font-size: 18px;
+}
+.cart-card-quantity{
+    font-size: 16px;
+    color: grey;
+}
+.cart-card-price{
+    font-size: 16px;
+    color: gray;
+}
+.cart-card-delivery{
+    margin-left: 10px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+.cart-card-delivery-time{
+    /* background-color: pink; */
+    flex: 1;
+}
+.cart-card-delivery-remove{
+    /* background-color: yellow; */
+    text-align: left;
+    margin-bottom: 10px;
+}
+.cart-card-delivery-remove span{
+    font-size: 12px;
+}
+.cart-card-delivery-remove span:hover{
+    color: red;
+    font-weight: 600;
+    border-bottom: 2px solid red;
+}
+.cart-card{
+    margin-bottom: 10px;
+}
+.cart-head-all-card{
+    margin-right: 40px;
+    /* background-color: red; */
+    width: 900px;
+}
+.cart-head-all-price-detail{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+}
+.cart-head-all-price{
+    /* background-color: red; */
+    /* padding: 15px; */
+    padding-bottom: 0;
+    box-shadow: 3px 3px 7px black;
+    height: fit-content;
+    border-radius: 5px;
+}
+.shared-styles{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-family: cursive;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.change-flex{
+    flex: 1;
+}
+.cart-head-all-price-detail-total{
+    margin-top: 20px;
+    
+}
+.cart-head-all-price-detail-total .total-amount span{
+    font-weight: 700;
+    font-size: 20px;
+}
+.cart-head-all-price-head{
+    border-bottom: 1px solid gray;
+}
+.cart-head-all-price-detail-delivery{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.cart-head-all-price-button{
+    /* background-color: red; */
+    box-shadow: 3px 3px 7px black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: right;
+}
+.cart-head-all-price-button button{
+    flex: 1;
+    background-color: darkorange;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    
+}
+.cart-head-all-price-button button:hover{
+    cursor: pointer;
+
+    background-color: darkgoldenrod;
+}
+.cart-card-delivery-remove span:hover{
+    cursor: pointer;
+}

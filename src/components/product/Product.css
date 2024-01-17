@@ -1,0 +1,93 @@
+.main-product-all .product-head-all{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: whitesmoke;
+    height: 12vh;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-product-all .product-head-all .search-product{
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom: 18px;
+}
+
+.main-product-all .product-head-all .text-head{
+    font-size: 40px;
+    font-family: cursive;
+}
+.main-product-all .product-head-all .search-and-icon i{
+    background-color: lightgray;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 8px;
+    width: fit-content;
+     margin: auto;
+     box-shadow: -3px -3px 7px grey,
+  3px 3px 5px black;
+}
+.main-product-all .product-head-all .search-and-icon{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+
+.product-image{
+    width: 250px;
+    height: 200px;
+    box-shadow: -3px -3px 7px grey,
+    3px 3px 5px black;
+}
+.product-card-div{
+    background-color: lightgray;
+    border-radius: 8px;
+    width: 900px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    box-shadow: -3px -3px 7px grey,
+    3px 3px 5px black;
+}
+.product-card{
+    /* background-color: black; */
+}
+
+.product-card-detail{
+    margin-left: 10px;
+}
+.product-card-button{
+    display: flex;
+    margin-top: 40px;
+    padding: auto;
+    width: 400px;
+    /* background-color: green; */
+}
+.product-card-wishlist{
+    flex: 1;
+    box-shadow: -3px -3px 7px grey,
+    3px 3px 5px black;
+    border-radius: 5px;
+    height: 30px;
+}
+.product-card-cart{
+    margin-left: 10px;
+    flex: 1;
+    box-shadow: -3px -3px 7px grey,
+    3px 3px 5px black;
+    border-radius: 5px;
+    height: 30px;
+}
+.product-card-button span{
+    font-family: cursive;
+}
+.product-card-detail span{
+    font-family: cursive;   
+}
+.product-card{
+    padding: 10px;
+    padding-left: 300px;
+}

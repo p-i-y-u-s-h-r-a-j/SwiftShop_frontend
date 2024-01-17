@@ -1,0 +1,96 @@
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightyellow;
+}
+
+.mainbody .namewhole{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid lightcyan;
+    padding: 15px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.mainbody .emailwhole{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid lightcyan;
+    padding: 5px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+}
+
+.mainbody .namewhole .namediv{
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.mainbody .emailwhole .email{
+    height: 0;
+    text-align: start;
+    background-color: lightcyan;
+    box-shadow: none;
+    border: none;
+    margin-top: 0;
+    width: fit-content;
+    padding: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.mainbody .passwordwhole{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid lightcyan;
+    padding: 5px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+}
+
+.mainbody .passwordwhole .password{
+    height: 0;
+    text-align: start;
+    background-color: lightcyan;
+    box-shadow: none;
+    border: none;
+    margin-top: 0;
+    width: fit-content;
+    padding: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.mainbody .button .buttonsignup{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainbody .namewhole .namediv .firstname,.mainbody .namewhole .namediv .lastname {
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+}
+
